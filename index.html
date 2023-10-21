@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <section class="card">
+
+
+      <div class="card__left">
+        <h2 class="title">Your Result</h2>
+        <p class="left__score"><span>76</span> of 100</p>
+
+        <div class="left__bottom">
+          <p class="bottom__result">Great</p>
+          <p class="bottom__text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="card__right">
+        <h2 class="title">Summary</h2>
+        
+        <div class="right__summary">
+          
+          <div class="summary__item" ca="reaction">
+            <div class="item__group" ca="reaction">
+            <img src="./assets/images/icon-reaction.svg" alt="icon of flash" />
+            <p class="item__title">Reaction</p>  
+            </div>            
+            <p class="item__result"><span>80</span> / 100</p>
+          </div>
+
+          <div class="summary__item" ca="memory">
+            <div class="item__group" ca="memory">
+            <img src="./assets/images/icon-memory.svg" alt="icon of brain" />
+            <p class="item__title">Memory</p>  
+            </div>            
+            <p class="item__result"><span>92</span> / 100</p>
+          </div>
+
+          
+          <div class="summary__item" ca="verbal">
+            <div class="item__group" ca="verbal">
+              <img
+              src="./assets/images/icon-verbal.svg"
+              alt="icon of chat bubble"
+            />
+            <p class="item__title">Verbal</p> 
+            </div>           
+            <p class="item__result"><span>61</span> / 100</p>
+          </div>
+
+          <div class="summary__item" ca="visual">
+            <div class="item__group" ca="visual">
+              <img src="./assets/images/icon-visual.svg" alt="icon of eye" />
+            <p class="item__title">Visual</p>
+            </div>            
+            <p class="summary__result"><span>72</span> / 100</p>
+          </div>
+        </div>
+
+        <button class="summary__button">Continue</button>
+
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/davidgrossmann" target="_blank">David G.</a>.
+    </div>
+  </body>
+</html>
